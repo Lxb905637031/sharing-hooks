@@ -20,7 +20,7 @@ export default {
       'fusion'
     ]
   ],
-  title: 'sharing hooks',
+  title: 'SharingHooks',
   mode: 'site',
   favicon: '/sharing-hooks/sharing.png',
   logo: '/sharing-hooks/sharing.png',
