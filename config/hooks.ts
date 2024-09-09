@@ -1,10 +1,10 @@
 export const menus = [
   {
     title: '生命周期',
-    // children: [
-    //   'useUnmount',
-    //   'useUnmountRef'
-    // ]
+    children: [
+      'useUnmount',
+      // 'useUnmountRef'
+    ]
   },
   {
     title: '请求',
