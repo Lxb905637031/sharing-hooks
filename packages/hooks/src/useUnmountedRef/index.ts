@@ -11,7 +11,7 @@ function useUnmountedRef() {
     }
   }, [])
 
-  return unmountedRef.current
+  return unmountedRef
 }
 
 export default useUnmountedRef
