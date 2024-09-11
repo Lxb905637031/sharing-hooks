@@ -7,6 +7,7 @@ import useUnmountedRef from './useUnmountedRef'
 import useDebounceFn from './useDebounceFn'
 import useDebounce from './useDebounce'
 import useThrottleFn from './useThrottleFn'
+import useThrottle from './useThrottle'
 
 export {
   useBoolean,
@@ -17,5 +18,6 @@ export {
   useUnmountedRef,
   useDebounceFn,
   useDebounce,
-  useThrottleFn
+  useThrottleFn,
+  useThrottle
 }

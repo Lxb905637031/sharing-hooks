@@ -38,7 +38,7 @@ export const menus = [
       // 'useSet',
       // 'useSetState',
       'useToggle',
-      // 'useThrottle'
+      'useThrottle'
     ]
   },
   {
