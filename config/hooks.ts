@@ -45,7 +45,7 @@ export const menus = [
     title: 'Effect',
     children: [
       'useDebounceFn',
-      // 'useThrottleFn',
+      'useThrottleFn',
       // 'useUpdateEffect'
     ]
   },
