@@ -1,14 +1,14 @@
 import { act, renderHook } from '@testing-library/react'
-import { useThrottleFn } from 'sharing-hooks'
+import useThrottleFn from '../index'
 import { sleep } from '../../utils/testingHelper'
 
 interface ParamsObj {
-  fn: (...args: any) => any;
-  wait: number;
-  deps?: any[];
+  fn: (...arg: any) => any
+  deps?: any[]
+  wait: number
 }
 
-const setUp = ({ fn, wait }: ParamsObj) => renderHook(() => useThrottleFn(fn, {wait}))
+const setUp = ({ fn, wait }: ParamsObj) => renderHook(() => useThrottleFn(fn, { wait }))
 
 let hook
 
@@ -21,7 +21,7 @@ describe('useThrottleFn', () => {
     act(() => {
       hook = setUp({
         fn: throttleFn,
-        wait: 500
+        wait: 500,
       })
     })
     await act(async () => {
