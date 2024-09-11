@@ -1,15 +1,15 @@
+import { act, renderHook } from '@testing-library/react'
 import { sleep } from '../../utils/testingHelper'
-import { renderHook, act } from '@testing-library/react'
-import useDebounceFn from '..'
+import useDebounceFn from '../index'
 
 interface ParamsObj {
-  fn: (...arg: any) => any;
-  deps?: any[];
-  wait: number;
+  fn: (...arg: any) => any
+  deps?: any[]
+  wait: number
 }
 
 let count = 0
-const debouncedFn = (gap: number) => {
+const debounceFn = (gap: number) => {
   count += gap
 }
 
@@ -21,8 +21,8 @@ describe('useDebounceFn', () => {
   it('run, cancel and flush should work', async () => {
     act(() => {
       hook = setUp({
-        fn: debouncedFn,
-        wait: 200
+        fn: debounceFn,
+        wait: 200,
       })
     })
     await act(async () => {
