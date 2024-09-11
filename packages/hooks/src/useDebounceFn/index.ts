@@ -20,7 +20,7 @@ interface Result {
   cancel: () => void
 }
 
-function useDebounceFn<T extends noop>(fn: T, options: Options): Result {
+function useDebounceFn<T extends noop>(fn: T, options?: Options): Result {
   if (isDev) {
     if (!isFunction(fn)) {
       console.error(`useDebounceFn expected parameter is a function, got ${typeof fn}`)
@@ -29,7 +29,7 @@ function useDebounceFn<T extends noop>(fn: T, options: Options): Result {
 
   const fnRef = useLatest(fn)
   
-  const wait = options.wait ?? 1000
+  const wait = options?.wait ?? 1000
 
   const debounced = useMemo(() => {
     return debounce(
