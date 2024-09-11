@@ -5,6 +5,7 @@ import useMemoizedFn from './useMemoizedFn'
 import useUnmount from './useUnmount'
 import useUnmountedRef from './useUnmountedRef'
 import useDebounceFn from './useDebounceFn'
+import useDebounce from './useDebounce'
 
 export {
   useBoolean,
@@ -13,5 +14,6 @@ export {
   useToggle,
   useUnmount,
   useUnmountedRef,
-  useDebounceFn
+  useDebounceFn,
+  useDebounce
 }
