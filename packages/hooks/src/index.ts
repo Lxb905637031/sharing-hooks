@@ -9,6 +9,7 @@ import useDebounce from './useDebounce'
 import useThrottleFn from './useThrottleFn'
 import useThrottle from './useThrottle'
 import useUpdateEffect from './useUpdateEffect'
+import useGetState from './useGetState'
 
 export {
   useBoolean,
@@ -21,5 +22,6 @@ export {
   useDebounce,
   useThrottleFn,
   useThrottle,
-  useUpdateEffect
+  useUpdateEffect,
+  useGetState
 }
