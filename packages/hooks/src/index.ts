@@ -8,6 +8,7 @@ import useDebounceFn from './useDebounceFn'
 import useDebounce from './useDebounce'
 import useThrottleFn from './useThrottleFn'
 import useThrottle from './useThrottle'
+import useUpdateEffect from './useUpdateEffect'
 
 export {
   useBoolean,
@@ -19,5 +20,6 @@ export {
   useDebounceFn,
   useDebounce,
   useThrottleFn,
-  useThrottle
+  useThrottle,
+  useUpdateEffect
 }
