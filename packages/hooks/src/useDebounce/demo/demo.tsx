@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: DebouncedValue 只会在输入结束 500ms 后变化。
+ */
+
 import React, { useState } from 'react'
 import { useDebounce } from 'sharing-hooks'
 import { Input } from 'antd'

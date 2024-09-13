@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: useLatest 返回的永远是最新值
+ */
+
 import React, { useState, useEffect } from 'react'
 import { useLatest } from 'sharing-hooks'
 

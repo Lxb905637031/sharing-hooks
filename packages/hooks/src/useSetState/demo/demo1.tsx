@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: 自动合并对象。
+ */
+
 import React from 'react'
 import { useSetState } from 'sharing-hooks'
 import { Button } from 'antd'

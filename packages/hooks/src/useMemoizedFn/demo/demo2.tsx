@@ -1,3 +1,8 @@
+/**
+ * title: useMemoizedFn 函数地址不会变化，可以用于性能优化
+ * desc: 示例中 `memoizedFn` 是不会变化的，`callbackFn` 在 count 变化时变化。
+ */
+
 import { message, Button } from 'antd'
 import React, { useCallback, useRef, useState } from 'react'
 import { useMemoizedFn } from 'sharing-hooks'

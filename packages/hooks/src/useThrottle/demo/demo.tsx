@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: ThrottledValue 每隔 500ms 变化一次。
+ */
+
 import React, { useState } from 'react'
 import { useThrottle } from 'sharing-hooks'
 import { Input } from 'antd'

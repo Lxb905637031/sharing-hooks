@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: useMemoizedFn 与 useCallback 可以实现同样的效果。
+ */
+
 import React, { useState, useCallback } from 'react'
 import { message, Button } from 'antd'
 import { useMemoizedFn } from 'sharing-hooks'
