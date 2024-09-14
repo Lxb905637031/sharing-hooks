@@ -31,7 +31,7 @@ export const menus = [
       'useGetState',
       // 'useLocalStorageState',
       // 'useMap',
-      // 'usePrevious',
+      'usePrevious',
       // 'useResetState',
       // 'useSafeState',
       // 'useSessionStorageState',

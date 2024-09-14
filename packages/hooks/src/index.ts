@@ -11,6 +11,7 @@ import useThrottle from './useThrottle'
 import useUpdateEffect from './useUpdateEffect'
 import useGetState from './useGetState'
 import useSetState from './useSetState'
+import usePrevious from './usePrevious'
 
 export {
   useBoolean,
@@ -25,5 +26,6 @@ export {
   useThrottle,
   useUpdateEffect,
   useGetState,
-  useSetState
+  useSetState,
+  usePrevious
 }
