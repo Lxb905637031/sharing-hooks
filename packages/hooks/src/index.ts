@@ -12,6 +12,7 @@ import useUpdateEffect from './useUpdateEffect'
 import useGetState from './useGetState'
 import useSetState from './useSetState'
 import usePrevious from './usePrevious'
+import useResetState from './useResetState'
 
 export {
   useBoolean,
@@ -27,5 +28,6 @@ export {
   useUpdateEffect,
   useGetState,
   useSetState,
-  usePrevious
+  usePrevious,
+  useResetState
 }
