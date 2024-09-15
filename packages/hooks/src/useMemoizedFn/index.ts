@@ -24,7 +24,7 @@ function useMemoizedFn<T extends noop>(fn: T) {
 
   if (!memoizedFn.current) {
     memoizedFn.current = function (this, ...args) {
-      return fnRef.current.call(this, args)
+      return fnRef.current.apply(this, args)
     }
   }
 
