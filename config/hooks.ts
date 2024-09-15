@@ -35,7 +35,7 @@ export const menus = [
       'useResetState',
       // 'useSafeState',
       // 'useSessionStorageState',
-      // 'useSet',
+      'useSet',
       'useSetState',
       'useToggle',
       'useThrottle'
