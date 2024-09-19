@@ -30,7 +30,7 @@ export const menus = [
       'useDebounce',
       'useGetState',
       // 'useLocalStorageState',
-      // 'useMap',
+      'useMap',
       'usePrevious',
       'useResetState',
       // 'useSafeState',

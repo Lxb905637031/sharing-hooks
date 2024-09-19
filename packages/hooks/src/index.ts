@@ -14,6 +14,7 @@ import useSetState from './useSetState'
 import usePrevious from './usePrevious'
 import useResetState from './useResetState'
 import useSet from './useSet'
+import useMap from './useMap'
 
 export {
   useBoolean,
@@ -31,5 +32,6 @@ export {
   useSetState,
   usePrevious,
   useResetState,
-  useSet
+  useSet,
+  useMap
 }
