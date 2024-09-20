@@ -26,7 +26,7 @@ export const menus = [
     title: '状态',
     children: [
       'useBoolean',
-      // 'useCookieState',
+      'useCookieState',
       'useDebounce',
       'useGetState',
       // 'useLocalStorageState',

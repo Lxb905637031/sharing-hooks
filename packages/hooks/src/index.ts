@@ -16,6 +16,7 @@ import useResetState from './useResetState'
 import useSet from './useSet'
 import useMap from './useMap'
 import useSafeState from './useSafeState'
+import useCookieState from './useCookieState'
 
 export {
   useBoolean,
@@ -35,5 +36,6 @@ export {
   useResetState,
   useSet,
   useMap,
-  useSafeState
+  useSafeState,
+  useCookieState
 }
