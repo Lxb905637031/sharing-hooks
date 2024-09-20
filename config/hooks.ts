@@ -33,7 +33,7 @@ export const menus = [
       'useMap',
       'usePrevious',
       'useResetState',
-      // 'useSafeState',
+      'useSafeState',
       // 'useSessionStorageState',
       'useSet',
       'useSetState',
