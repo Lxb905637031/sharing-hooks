@@ -29,7 +29,7 @@ export const menus = [
       'useCookieState',
       'useDebounce',
       'useGetState',
-      // 'useLocalStorageState',
+      'useLocalStorageState',
       'useMap',
       'usePrevious',
       'useResetState',
