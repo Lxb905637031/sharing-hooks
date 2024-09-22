@@ -51,22 +51,22 @@ export const menus = [
   },
   {
     title: 'DOM',
-    // children: [
-    //   'useClickAway',
-    //   'useDocumentVisibility',
-    //   'useDrop',
-    //   'useEventListener',
-    //   'useEventTarget',
-    //   'useFullscreen',
-    //   'useHover',
-    //   'useInViewport',
-    //   'useLongPress',
-    //   'useMutationObserver',
-    //   'useResponsive',
-    //   'useScroll',
-    //   'useSize',
-    //   'useTitle'
-    // ]
+    children: [
+      // 'useClickAway',
+      // 'useDocumentVisibility',
+      // 'useDrop',
+      // 'useEventListener',
+      // 'useEventTarget',
+      // 'useFullscreen',
+      // 'useHover',
+      // 'useInViewport',
+      // 'useLongPress',
+      // 'useMutationObserver',
+      // 'useResponsive',
+      // 'useScroll',
+      // 'useSize',
+      'useTitle'
+    ]
   },
   {
     title: '进阶',

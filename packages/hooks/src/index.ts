@@ -18,6 +18,7 @@ import useMap from './useMap'
 import useSafeState from './useSafeState'
 import useCookieState from './useCookieState'
 import useLocalStorageState from './useLocalStorageState'
+import useTitle from './useTitle'
 
 export {
   useBoolean,
@@ -39,5 +40,6 @@ export {
   useMap,
   useSafeState,
   useCookieState,
-  useLocalStorageState
+  useLocalStorageState,
+  useTitle
 }
