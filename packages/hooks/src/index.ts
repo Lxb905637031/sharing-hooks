@@ -19,6 +19,8 @@ import useSafeState from './useSafeState'
 import useCookieState from './useCookieState'
 import useLocalStorageState from './useLocalStorageState'
 import useTitle from './useTitle'
+import useRafState from './useRafState'
+import useSize from './useSize'
 
 export {
   useBoolean,
@@ -41,5 +43,7 @@ export {
   useSafeState,
   useCookieState,
   useLocalStorageState,
-  useTitle
+  useTitle,
+  useRafState,
+  useSize
 }

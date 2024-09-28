@@ -64,7 +64,7 @@ export const menus = [
       // 'useMutationObserver',
       // 'useResponsive',
       // 'useScroll',
-      // 'useSize',
+      'useSize',
       'useTitle'
     ]
   },
