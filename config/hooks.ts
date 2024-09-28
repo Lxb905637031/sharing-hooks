@@ -63,7 +63,7 @@ export const menus = [
       // 'useLongPress',
       // 'useMutationObserver',
       // 'useResponsive',
-      // 'useScroll',
+      'useScroll',
       'useSize',
       'useTitle'
     ]

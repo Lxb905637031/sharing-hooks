@@ -21,6 +21,7 @@ import useLocalStorageState from './useLocalStorageState'
 import useTitle from './useTitle'
 import useRafState from './useRafState'
 import useSize from './useSize'
+import useScroll from './useScroll'
 
 export {
   useBoolean,
@@ -45,5 +46,6 @@ export {
   useLocalStorageState,
   useTitle,
   useRafState,
-  useSize
+  useSize,
+  useScroll
 }
