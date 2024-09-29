@@ -23,6 +23,7 @@ import useRafState from './useRafState'
 import useSize from './useSize'
 import useScroll from './useScroll'
 import useEventListener from './useEventListener'
+import useHover from './useHover'
 
 export {
   useBoolean,
@@ -49,5 +50,6 @@ export {
   useRafState,
   useSize,
   useScroll,
-  useEventListener
+  useEventListener,
+  useHover
 }
