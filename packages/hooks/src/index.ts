@@ -22,6 +22,7 @@ import useTitle from './useTitle'
 import useRafState from './useRafState'
 import useSize from './useSize'
 import useScroll from './useScroll'
+import useEventListener from './useEventListener'
 
 export {
   useBoolean,
@@ -47,5 +48,6 @@ export {
   useTitle,
   useRafState,
   useSize,
-  useScroll
+  useScroll,
+  useEventListener
 }
