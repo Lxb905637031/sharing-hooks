@@ -24,6 +24,7 @@ import useSize from './useSize'
 import useScroll from './useScroll'
 import useEventListener from './useEventListener'
 import useHover from './useHover'
+import useEventTarget from './useEventTarget'
 
 export {
   useBoolean,
@@ -51,5 +52,6 @@ export {
   useSize,
   useScroll,
   useEventListener,
-  useHover
+  useHover,
+  useEventTarget
 }

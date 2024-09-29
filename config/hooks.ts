@@ -56,7 +56,7 @@ export const menus = [
       // 'useDocumentVisibility',
       // 'useDrop',
       // 'useEventListener',
-      // 'useEventTarget',
+      'useEventTarget',
       // 'useFullscreen',
       'useHover',
       // 'useInViewport',
