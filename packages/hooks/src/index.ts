@@ -25,6 +25,7 @@ import useScroll from './useScroll'
 import useEventListener from './useEventListener'
 import useHover from './useHover'
 import useEventTarget from './useEventTarget'
+import useDocumentVisibility from './useDocumentVisibility'
 
 export {
   useBoolean,
@@ -53,5 +54,6 @@ export {
   useScroll,
   useEventListener,
   useHover,
-  useEventTarget
+  useEventTarget,
+  useDocumentVisibility
 }
