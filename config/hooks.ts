@@ -55,7 +55,7 @@ export const menus = [
       // 'useClickAway',
       // 'useDocumentVisibility',
       // 'useDrop',
-      // 'useEventListener',
+      'useEventListener',
       'useEventTarget',
       // 'useFullscreen',
       'useHover',

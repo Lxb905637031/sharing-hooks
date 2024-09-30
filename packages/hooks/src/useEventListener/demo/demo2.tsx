@@ -8,7 +8,7 @@ import { useEventListener } from 'sharing-hooks'
 
 export default () => {
   const [value, setValue] = useState('')
-
+  
   useEventListener('keydown', (eve) => {
     setValue(eve.code)
   })

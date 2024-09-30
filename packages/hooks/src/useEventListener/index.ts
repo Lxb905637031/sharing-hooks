@@ -41,11 +41,11 @@ function useEventListener(eventName: string, handler: noop, options: Options = {
 
   useEffectWithTarget(
     () => {
-      const targetElement = getTargetElement(options.target)
+      const targetElement = getTargetElement(options.target, window)
       if (!targetElement?.addEventListener) {
         return
       }
-
+    
       const eventListener = (event: Event) => {
         return handlerRef.current(event)
       }
