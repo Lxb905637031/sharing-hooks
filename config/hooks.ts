@@ -57,7 +57,7 @@ export const menus = [
       // 'useDrop',
       'useEventListener',
       'useEventTarget',
-      // 'useFullscreen',
+      'useFullscreen',
       'useHover',
       'useInViewport',
       // 'useLongPress',

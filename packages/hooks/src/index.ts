@@ -27,6 +27,7 @@ import useHover from './useHover'
 import useEventTarget from './useEventTarget'
 import useDocumentVisibility from './useDocumentVisibility'
 import useInViewport from './useInViewport'
+import useFullscreen from './useFullscreen'
 
 export {
   useBoolean,
@@ -57,5 +58,6 @@ export {
   useHover,
   useEventTarget,
   useDocumentVisibility,
-  useInViewport
+  useInViewport,
+  useFullscreen
 }
