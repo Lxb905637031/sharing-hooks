@@ -26,6 +26,7 @@ import useEventListener from './useEventListener'
 import useHover from './useHover'
 import useEventTarget from './useEventTarget'
 import useDocumentVisibility from './useDocumentVisibility'
+import useInViewport from './useInViewport'
 
 export {
   useBoolean,
@@ -55,5 +56,6 @@ export {
   useEventListener,
   useHover,
   useEventTarget,
-  useDocumentVisibility
+  useDocumentVisibility,
+  useInViewport
 }
