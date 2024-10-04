@@ -52,7 +52,7 @@ export const menus = [
   {
     title: 'DOM',
     children: [
-      // 'useClickAway',
+      'useClickAway',
       'useDocumentVisibility',
       // 'useDrop',
       'useEventListener',

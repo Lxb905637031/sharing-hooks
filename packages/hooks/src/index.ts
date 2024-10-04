@@ -28,6 +28,7 @@ import useEventTarget from './useEventTarget'
 import useDocumentVisibility from './useDocumentVisibility'
 import useInViewport from './useInViewport'
 import useFullscreen from './useFullscreen'
+import useClickAway from './useClickAway'
 
 export {
   useBoolean,
@@ -59,5 +60,6 @@ export {
   useEventTarget,
   useDocumentVisibility,
   useInViewport,
-  useFullscreen
+  useFullscreen,
+  useClickAway
 }
