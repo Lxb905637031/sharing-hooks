@@ -29,6 +29,7 @@ import useDocumentVisibility from './useDocumentVisibility'
 import useInViewport from './useInViewport'
 import useFullscreen from './useFullscreen'
 import useClickAway from './useClickAway'
+import useMount from './useMount'
 
 export {
   useBoolean,
@@ -61,5 +62,6 @@ export {
   useDocumentVisibility,
   useInViewport,
   useFullscreen,
-  useClickAway
+  useClickAway,
+  useMount
 }
