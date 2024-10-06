@@ -61,7 +61,7 @@ export const menus = [
       'useHover',
       'useInViewport',
       // 'useLongPress',
-      // 'useMutationObserver',
+      'useMutationObserver',
       // 'useResponsive',
       'useScroll',
       'useSize',

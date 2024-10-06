@@ -32,6 +32,7 @@ import useClickAway from './useClickAway'
 import useMount from './useMount'
 import useDrag from './useDrag'
 import useDrop from './useDrop'
+import useMutationObserver from './useMutationObserver'
 
 export {
   useBoolean,
@@ -67,5 +68,6 @@ export {
   useClickAway,
   useMount,
   useDrag,
-  useDrop
+  useDrop,
+  useMutationObserver
 }
