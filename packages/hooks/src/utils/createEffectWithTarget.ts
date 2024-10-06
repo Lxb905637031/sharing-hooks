@@ -15,7 +15,7 @@ const createEffectWithTarget = (useEffectType: typeof useEffect | typeof useLayo
     const hasInitRef = useRef(false)
 
     const lastElementRef = useRef<(Element | null)[]>([])
-    const lastDeps = useRef<DependencyList>([])
+    const lastDepsRef = useRef<DependencyList>([])
 
     const unLoadRef = useRef<any>()
 
@@ -26,7 +26,7 @@ const createEffectWithTarget = (useEffectType: typeof useEffect | typeof useLayo
       if (!hasInitRef.current) {
         hasInitRef.current = true
         lastElementRef.current = els
-        lastDeps.current = deps
+        lastDepsRef.current = deps
 
         unLoadRef.current = effect()
         return
@@ -35,12 +35,12 @@ const createEffectWithTarget = (useEffectType: typeof useEffect | typeof useLayo
       if (
         els.length !== lastElementRef.current.length ||
         !depsAreSame(els, lastElementRef.current) ||
-        !depsAreSame(els, lastDeps.current)
+        !depsAreSame(deps, lastDepsRef.current)
        ) {
           unLoadRef.current?.()
 
           lastElementRef.current = els
-          lastDeps.current = deps
+          lastDepsRef.current = deps
           unLoadRef.current = effect()
         }
     })
