@@ -54,7 +54,7 @@ export const menus = [
     children: [
       'useClickAway',
       'useDocumentVisibility',
-      // 'useDrop',
+      'useDrop',
       'useEventListener',
       'useEventTarget',
       'useFullscreen',

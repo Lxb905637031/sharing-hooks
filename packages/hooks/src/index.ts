@@ -30,6 +30,8 @@ import useInViewport from './useInViewport'
 import useFullscreen from './useFullscreen'
 import useClickAway from './useClickAway'
 import useMount from './useMount'
+import useDrag from './useDrag'
+import useDrop from './useDrop'
 
 export {
   useBoolean,
@@ -63,5 +65,7 @@ export {
   useInViewport,
   useFullscreen,
   useClickAway,
-  useMount
+  useMount,
+  useDrag,
+  useDrop
 }
