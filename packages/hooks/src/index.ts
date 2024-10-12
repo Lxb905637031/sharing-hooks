@@ -34,6 +34,7 @@ import useDrag from './useDrag'
 import useDrop from './useDrop'
 import useMutationObserver from './useMutationObserver'
 import useLongPress from './useLongPress'
+import useUpdate from './useUpdate'
 
 export {
   useBoolean,
@@ -71,5 +72,6 @@ export {
   useDrag,
   useDrop,
   useMutationObserver,
-  useLongPress
+  useLongPress,
+  useUpdate
 }
